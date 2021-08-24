@@ -2,3 +2,35 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 10px;
+}
+
+.car-card {
+    flex: 1 1 100%;
+    padding: 20px;
+}
+
+.card-header {
+    color: hsl(0, 0%, 95%);
+}
+
+.card-para {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.car-card:first-of-type {
+    background-color: #e28525;
+}
+
+.car-card:nth-of-type(2) {
+    background-color: #016972;
+}
+
+.car-card:nth-of-type(3) {
+    background-color: #00403f;
+}
