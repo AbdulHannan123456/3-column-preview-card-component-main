@@ -1,3 +1,6 @@
+@import url('https://fonts.google.com/specimen/Big+Shoulders+Display');
+@import url('https://fonts.google.com/specimen/Lexend+Deca');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,20 +10,44 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 20px 10px;
+    padding: 60px 20px;
 }
 
 .car-card {
     flex: 1 1 100%;
-    padding: 20px;
+    padding: 25px 40px;
+}
+
+.car-card > *{
+    margin: 12px 0;
+}
+
+.car-card img {
+    width: 50px;
 }
 
 .card-header {
     color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', cursive;
 }
 
 .card-para {
+    font-size: 11px;
     color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 20px;
+}
+
+.card-button {
+    background-color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+.card-button a {
+    text-decoration: none;
 }
 
 .car-card:first-of-type {
