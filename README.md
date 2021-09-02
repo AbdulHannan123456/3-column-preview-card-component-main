@@ -30,7 +30,7 @@ Users should be able to:
 Desktop Preview
 
 
-![](./images/screenshots/Mobile-screenshot.png)
+![](./images/screenshots/Mobile-screenshot.png)<br />
 Mobile Preview
 
 ### Links
