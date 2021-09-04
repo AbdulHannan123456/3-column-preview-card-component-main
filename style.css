@@ -104,12 +104,20 @@ body {
         box-shadow: rgba(170, 170, 170, 0.401) 5px 10px 25px 12px;
     }
 
+    .car-card img {
+        width: 55px;
+    }
+
     .car-card {
         flex: 1 1 10%;
+        display: flex;
+        flex-flow: column;
+        align-items: stretch;
     }
 
     .card-button {
-        margin-top: 50px;
+        margin-top: auto;
+        width: max-content;
     }
 
     #sedan {
